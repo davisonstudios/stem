@@ -1,4 +1,5 @@
 import '@styles/globals.css'
+import '../styles/fonts.css'
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />
