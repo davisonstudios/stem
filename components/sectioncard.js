@@ -35,11 +35,11 @@ const Container = styled.div`
 `
 
 const SectionCard = (props) => {
-    const {key} = props
+    // const theKey = props.key
     const {title, links} = props.section
 
     return (
-        <Container key={key}>
+        <Container>
             <Card>
                 <Heading>{title}</Heading>
                 {links.map( (link, index) => {

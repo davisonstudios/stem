@@ -19,7 +19,6 @@ const Container = styled.div`
 
 const Sections = (props) => {
     const sections = props.config == 'mac' ? configMac : config
-    console.log( sections )
     return (
         <Container>
             {sections.map( (section, index) =>
