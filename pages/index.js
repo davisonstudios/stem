@@ -1,23 +1,31 @@
-// import Head from 'next/head'
-// import Header from '@components/Header'
-// import Footer from '@components/Footer'
 import styled from 'styled-components'
+import { ThemeProvider } from "styled-components";
+import Sections from '../components/sections';
+import { theme } from '../data/theme';
+import Rocket from '../components/rocket';
+import Header from '../components/header';
 
-const Container = styled.div`
+const Container = styled.section`
     display: flex;
-    height: 100vh;
-    /* background-color: #880c; */
-    color: red;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    font-family: 'Luckiest Guy';
-    font-size: 40px;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    margin: 0;
+    @media screen and (max-width: 700px) {
+        height: 100%;
+    }
 `
 
-export default function Home() {
-  return (
-    <Container>
-        Hello Roboticists!
-    </Container>
-  )
+export default function Home(props) {
+    return (
+        <ThemeProvider theme={theme}>
+            <Container>
+                <Rocket />
+                <Header />
+                <Sections config={props.config} />
+            </Container>
+        </ThemeProvider>
+    )
 }
