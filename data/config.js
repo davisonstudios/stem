@@ -15,7 +15,7 @@ export const config = [
     {
         title: "Coding",
         links: [
-            {title: "Code Monkey", link: "https://code.org/hourofcode/overview"},
+            {title: "Code Monkey", link: "https://app.codemonkey.com"},
             // {title: "Scratch", link: "https://scratch.mit.edu"},
             // {title: "Code.org", link: "https://code.org/hourofcode/overview"},
         ]
@@ -47,7 +47,7 @@ export const configMac = [
     {
         title: "Coding",
         links: [
-            {title: "Code Monkey", link: "https://code.org/hourofcode/overview"},
+            {title: "Code Monkey", link: "https://app.codemonkey.com"},
             // {title: "Scratch", link: "https://scratch.mit.edu"},
             // {title: "Code.org", link: "https://code.org/hourofcode/overview"},
         ]
