@@ -4,6 +4,7 @@ import Sections from '../components/sections';
 import { theme } from '../data/theme';
 import Rocket from '../components/rocket';
 import Header from '../components/header';
+import Head from 'next/head';
 
 const Container = styled.section`
     display: flex;
@@ -21,6 +22,9 @@ const Container = styled.section`
 export default function Home(props) {
     return (
         <ThemeProvider theme={theme}>
+            <Head>
+                <title>VSStem</title>
+            </Head>
             <Container>
                 <Rocket />
                 <Header />
