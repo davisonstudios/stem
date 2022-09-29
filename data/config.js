@@ -17,6 +17,7 @@ export const config = [
         links: [
             {title: "Code Monkey", link: "https://app.codemonkey.com"},
             {title: "Google Classroom", link: "https://classroom.google.com"},
+            {title: "Replit", link: "https://replit.com"},
             // {title: "Scratch", link: "https://scratch.mit.edu"},
             // {title: "Code.org", link: "https://code.org/hourofcode/overview"},
         ]
