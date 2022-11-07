@@ -13,6 +13,14 @@ export const config = [
     //     ]
     // },
     {
+        title: "Robotics",
+        links: [
+            {title: "Vex IQ", link: "https://codeIQ.vex.com"},
+            // {title: "VexGo", link: "https://codeGO.vex.com"},
+            {title: "Vex VR", link: "https://vr.vex.com"},
+        ]
+    },
+    {
         title: "Coding",
         links: [
             {title: "Code Monkey", link: "https://app.codemonkey.com"},
@@ -23,11 +31,10 @@ export const config = [
         ]
     },
     {
-        title: "Robotics",
+        title: "Typing",
         links: [
-            {title: "Vex IQ", link: "https://codeIQ.vex.com"},
-            // {title: "VexGo", link: "https://codeGO.vex.com"},
-            {title: "Vex VR", link: "https://vr.vex.com"},
+          {title: "Typing Club", link: "https://typingclub.com"},
+          {title: "Typing.com", link: "https://typing.com"},
         ]
     },
 ]
