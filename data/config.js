@@ -24,16 +24,16 @@ export const config = [
         title: "Coding",
         links: [
             {title: "Code Monkey", link: "https://app.codemonkey.com"},
-            {title: "Google Classroom", link: "https://classroom.google.com"},
+            {title: "Scratch", link: "https://scratch.mit.edu"},
             {title: "Replit", link: "https://replit.com"},
             {title: "p5*js", link: "https://editor.p5js.org"},            
-            // {title: "Scratch", link: "https://scratch.mit.edu"},
             // {title: "Code.org", link: "https://code.org/hourofcode/overview"},
         ]
     },
     {
-        title: "Typing",
+        title: "Other",
         links: [
+          {title: "Google Classroom", link: "https://classroom.google.com"},
           {title: "Typing Club", link: "https://typingclub.com"},
           {title: "Typing.com", link: "https://typing.com"},
         ]
