@@ -27,7 +27,7 @@ export const config = [
             {title: "Scratch", link: "https://scratch.mit.edu"},
             {title: "Replit", link: "https://replit.com"},
             {title: "p5*js", link: "https://editor.p5js.org"},
-            {title: "Piskel", link: "https://piskelapp.com"},
+            {title: "Piskel", link: "https://www.piskelapp.com"},
             // {title: "Code.org", link: "https://code.org/hourofcode/overview"},
         ]
     },
